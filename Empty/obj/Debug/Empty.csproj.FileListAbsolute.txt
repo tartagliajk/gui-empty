@@ -9,3 +9,6 @@ C:\Users\nina.vazae\gui empty\Empty\obj\Debug\Empty.csproj.GenerateResource.cach
 C:\Users\nina.vazae\gui empty\Empty\obj\Debug\Empty.csproj.CoreCompileInputs.cache
 C:\Users\nina.vazae\gui empty\Empty\obj\Debug\Empty.exe
 C:\Users\nina.vazae\gui empty\Empty\obj\Debug\Empty.pdb
+C:\Users\nina.vazae\gui empty\Empty\obj\Debug\Empty.IntroScreen.resources
+C:\Users\nina.vazae\gui empty\Empty\obj\Debug\Empty.Credits.resources
+C:\Users\nina.vazae\gui empty\Empty\obj\Debug\Empty.start.resources

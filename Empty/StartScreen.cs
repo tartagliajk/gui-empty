@@ -22,19 +22,29 @@ namespace Empty
 
         }
 
-        private void title_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void start_Click(object sender, EventArgs e)
-        {
-
-        }
 
         private void Title_Click_1(object sender, EventArgs e)
         {
 
         }
+
+        private void LoadGame(object sender, EventArgs e)
+        {
+            IntroScreen introScreen = new IntroScreen();
+
+            introScreen.Show();
+
+            this.Hide();
+        }
+
+        private void LoadCredits(object sender, EventArgs e)
+        {
+            Credits creditScreen = new Credits();
+
+            creditScreen.Show();
+
+            this.Hide();
+        }
+
     }
 }

@@ -10,20 +10,11 @@ using System.Windows.Forms;
 
 namespace Empty
 {
-    public partial class Credits : Form
+    public partial class start : Form
     {
-        public Credits()
+        public start()
         {
             InitializeComponent();
-        }
-
-        private void LoadStartScreen(object sender, EventArgs e)
-        {
-            StartScreen startScreen = new StartScreen();
-
-            startScreen.Show();
-
-            this.Hide();
         }
     }
 }

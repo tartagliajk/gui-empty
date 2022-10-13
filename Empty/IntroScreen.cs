@@ -16,5 +16,10 @@ namespace Empty
         {
             InitializeComponent();
         }
+
+        private void IntroScreen_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }
