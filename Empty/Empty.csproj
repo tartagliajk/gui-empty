@@ -52,11 +52,11 @@
     <Compile Include="Credits.Designer.cs">
       <DependentUpon>Credits.cs</DependentUpon>
     </Compile>
-    <Compile Include="start.cs">
+    <Compile Include="SpawnScreen.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="start.Designer.cs">
-      <DependentUpon>start.cs</DependentUpon>
+    <Compile Include="SpawnScreen.Designer.cs">
+      <DependentUpon>SpawnScreen.cs</DependentUpon>
     </Compile>
     <Compile Include="StartScreen.cs">
       <SubType>Form</SubType>
@@ -72,6 +72,18 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="TreesScreen.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="TreesScreen.Designer.cs">
+      <DependentUpon>TreesScreen.cs</DependentUpon>
+    </Compile>
+    <Compile Include="VillageScreen.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="VillageScreen.Designer.cs">
+      <DependentUpon>VillageScreen.cs</DependentUpon>
+    </Compile>
     <EmbeddedResource Include="Credits.resx">
       <DependentUpon>Credits.cs</DependentUpon>
     </EmbeddedResource>
@@ -87,8 +99,8 @@
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
-    <EmbeddedResource Include="start.resx">
-      <DependentUpon>start.cs</DependentUpon>
+    <EmbeddedResource Include="SpawnScreen.resx">
+      <DependentUpon>SpawnScreen.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="StartScreen.resx">
       <DependentUpon>StartScreen.cs</DependentUpon>

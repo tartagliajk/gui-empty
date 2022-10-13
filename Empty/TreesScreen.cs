@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace Empty
 {
-    public partial class start : Form
+    public partial class TreesScreen : Form
     {
-        public start()
+        public TreesScreen()
         {
             InitializeComponent();
         }
