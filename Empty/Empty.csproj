@@ -46,11 +46,41 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Credits.cs">
+    <Compile Include="CreditsScreen.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Credits.Designer.cs">
-      <DependentUpon>Credits.cs</DependentUpon>
+    <Compile Include="CreditsScreen.Designer.cs">
+      <DependentUpon>CreditsScreen.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ForestScreen.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ForestScreen.Designer.cs">
+      <DependentUpon>ForestScreen.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PortalScreen.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PortalScreen.Designer.cs">
+      <DependentUpon>PortalScreen.cs</DependentUpon>
+    </Compile>
+    <Compile Include="RangeScreen.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="RangeScreen.Designer.cs">
+      <DependentUpon>RangeScreen.cs</DependentUpon>
+    </Compile>
+    <Compile Include="RangeSmithScreen.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="RangeSmithScreen.Designer.cs">
+      <DependentUpon>RangeSmithScreen.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SmithScreen.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SmithScreen.Designer.cs">
+      <DependentUpon>SmithScreen.cs</DependentUpon>
     </Compile>
     <Compile Include="SpawnScreen.cs">
       <SubType>Form</SubType>
@@ -84,8 +114,11 @@
     <Compile Include="VillageScreen.Designer.cs">
       <DependentUpon>VillageScreen.cs</DependentUpon>
     </Compile>
-    <EmbeddedResource Include="Credits.resx">
-      <DependentUpon>Credits.cs</DependentUpon>
+    <EmbeddedResource Include="CreditsScreen.resx">
+      <DependentUpon>CreditsScreen.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ForestScreen.resx">
+      <DependentUpon>ForestScreen.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="IntroScreen.resx">
       <DependentUpon>IntroScreen.cs</DependentUpon>
@@ -99,11 +132,26 @@
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
+    <EmbeddedResource Include="RangeScreen.resx">
+      <DependentUpon>RangeScreen.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="RangeSmithScreen.resx">
+      <DependentUpon>RangeSmithScreen.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SmithScreen.resx">
+      <DependentUpon>SmithScreen.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="SpawnScreen.resx">
       <DependentUpon>SpawnScreen.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="StartScreen.resx">
       <DependentUpon>StartScreen.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TreesScreen.resx">
+      <DependentUpon>TreesScreen.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="VillageScreen.resx">
+      <DependentUpon>VillageScreen.cs</DependentUpon>
     </EmbeddedResource>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>

@@ -16,5 +16,14 @@ namespace Empty
         {
             InitializeComponent();
         }
+
+        private void next_Click(object sender, EventArgs e)
+        {
+            RangeSmithScreen rangeSmithScreen = new RangeSmithScreen();
+
+            rangeSmithScreen.Show();
+
+            this.Hide();
+        }
     }
 }

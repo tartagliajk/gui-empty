@@ -30,10 +30,10 @@
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(IntroScreen));
             this.loading = new System.Windows.Forms.Label();
-            this.textBox1 = new System.Windows.Forms.TextBox();
             this.text = new System.Windows.Forms.Label();
             this.arrow = new System.Windows.Forms.Button();
             this.next = new System.Windows.Forms.Label();
+            this.label2 = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // loading
@@ -43,32 +43,21 @@
             this.loading.Location = new System.Drawing.Point(0, 0);
             this.loading.Name = "loading";
             this.loading.Padding = new System.Windows.Forms.Padding(0, 50, 0, 0);
-            this.loading.Size = new System.Drawing.Size(1164, 140);
+            this.loading.Size = new System.Drawing.Size(1164, 156);
             this.loading.TabIndex = 0;
             this.loading.Text = "Loading...";
             this.loading.TextAlign = System.Drawing.ContentAlignment.TopCenter;
             // 
-            // textBox1
-            // 
-            this.textBox1.BackColor = System.Drawing.Color.White;
-            this.textBox1.Font = new System.Drawing.Font("Determination Mono Web", 21.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox1.ForeColor = System.Drawing.Color.White;
-            this.textBox1.Location = new System.Drawing.Point(319, 277);
-            this.textBox1.Multiline = true;
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(508, 125);
-            this.textBox1.TabIndex = 2;
-            // 
             // text
             // 
-            this.text.Font = new System.Drawing.Font("Determination Mono Web", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.text.Font = new System.Drawing.Font("Determination Mono Web", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.text.Location = new System.Drawing.Point(330, 286);
             this.text.Name = "text";
-            this.text.Size = new System.Drawing.Size(486, 106);
+            this.text.Size = new System.Drawing.Size(486, 108);
             this.text.TabIndex = 3;
-            this.text.Text = "* The world is loading.\r\n  Every block is being placed.\r\n  Trees and oceans are c" +
-    "reating.";
-            this.text.Click += new System.EventHandler(this.text_Click);
+            this.text.Text = "The world is loading.\r\nEvery block is being placed.\r\nTrees and oceans are creatin" +
+    "g.";
+            this.text.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // arrow
             // 
@@ -90,14 +79,22 @@
             this.next.Font = new System.Drawing.Font("Determination Mono Web", 26.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.next.Location = new System.Drawing.Point(1081, 580);
             this.next.Name = "next";
-            this.next.Size = new System.Drawing.Size(83, 35);
+            this.next.Size = new System.Drawing.Size(108, 45);
             this.next.TabIndex = 5;
             this.next.Text = "next";
             this.next.Click += new System.EventHandler(this.next_Click);
             // 
+            // label2
+            // 
+            this.label2.BackColor = System.Drawing.Color.White;
+            this.label2.Location = new System.Drawing.Point(316, 275);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(514, 130);
+            this.label2.TabIndex = 22;
+            // 
             // IntroScreen
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 14F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.AutoValidate = System.Windows.Forms.AutoValidate.EnablePreventFocusChange;
             this.BackColor = System.Drawing.Color.Black;
@@ -106,7 +103,7 @@
             this.Controls.Add(this.arrow);
             this.Controls.Add(this.text);
             this.Controls.Add(this.loading);
-            this.Controls.Add(this.textBox1);
+            this.Controls.Add(this.label2);
             this.Font = new System.Drawing.Font("Determination Mono Web", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.ForeColor = System.Drawing.SystemColors.ControlLightLight;
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
@@ -122,9 +119,9 @@
         #endregion
 
         private System.Windows.Forms.Label loading;
-        private System.Windows.Forms.TextBox textBox1;
         private System.Windows.Forms.Label text;
         private System.Windows.Forms.Button arrow;
         private System.Windows.Forms.Label next;
+        private System.Windows.Forms.Label label2;
     }
 }

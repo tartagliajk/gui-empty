@@ -37,10 +37,5 @@ namespace Empty
             this.Hide();
         }
 
-        private void text_Click(object sender, EventArgs e)
-        {
-
-        }
-
     }
 }

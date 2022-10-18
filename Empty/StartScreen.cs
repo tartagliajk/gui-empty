@@ -17,17 +17,6 @@ namespace Empty
             InitializeComponent();
         }
 
-        private void StartScreen_Load(object sender, EventArgs e)
-        {
-
-        }
-
-
-        private void Title_Click_1(object sender, EventArgs e)
-        {
-
-        }
-
         private void LoadGame(object sender, EventArgs e)
         {
             IntroScreen introScreen = new IntroScreen();
@@ -39,7 +28,7 @@ namespace Empty
 
         private void LoadCredits(object sender, EventArgs e)
         {
-            Credits creditScreen = new Credits();
+            CreditsScreen creditScreen = new CreditsScreen();
 
             creditScreen.Show();
 

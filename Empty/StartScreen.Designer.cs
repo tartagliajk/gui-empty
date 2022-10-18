@@ -46,7 +46,6 @@
             this.Title.TabIndex = 0;
             this.Title.Text = "EMPTY";
             this.Title.TextAlign = System.Drawing.ContentAlignment.TopCenter;
-            this.Title.Click += new System.EventHandler(this.Title_Click_1);
             // 
             // start
             // 
@@ -95,7 +94,6 @@
             this.Name = "StartScreen";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Empty start menu";
-            this.Load += new System.EventHandler(this.StartScreen_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 

@@ -16,5 +16,23 @@ namespace Empty
         {
             InitializeComponent();
         }
+
+        private void forest_Click(object sender, EventArgs e)
+        {
+            ForestScreen forestScreen = new ForestScreen();
+
+            forestScreen.Show();
+
+            this.Hide();
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            VillageScreen villageScreen = new VillageScreen();
+
+            villageScreen.Show();
+
+            this.Hide();
+        }
     }
 }
