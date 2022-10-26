@@ -35,6 +35,7 @@
             this.Sword = new System.Windows.Forms.Button();
             this.sunrise = new System.Windows.Forms.PictureBox();
             this.label2 = new System.Windows.Forms.Label();
+            this.next = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.sunrise)).BeginInit();
             this.SuspendLayout();
             // 
@@ -93,12 +94,24 @@
             this.label2.Size = new System.Drawing.Size(508, 416);
             this.label2.TabIndex = 31;
             // 
+            // next
+            // 
+            this.next.AutoSize = true;
+            this.next.Font = new System.Drawing.Font("Determination Mono Web", 26.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.next.Location = new System.Drawing.Point(1061, 579);
+            this.next.Name = "next";
+            this.next.Size = new System.Drawing.Size(108, 45);
+            this.next.TabIndex = 32;
+            this.next.Text = "next";
+            this.next.Click += new System.EventHandler(this.next_Click);
+            // 
             // SmithScreen
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 14F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.Black;
             this.ClientSize = new System.Drawing.Size(1166, 623);
+            this.Controls.Add(this.next);
             this.Controls.Add(this.text);
             this.Controls.Add(this.Axe);
             this.Controls.Add(this.Sword);
@@ -106,11 +119,13 @@
             this.Controls.Add(this.label2);
             this.Font = new System.Drawing.Font("Determination Mono Web", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.ForeColor = System.Drawing.Color.White;
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.Fixed3D;
             this.Name = "SmithScreen";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "smith";
             ((System.ComponentModel.ISupportInitialize)(this.sunrise)).EndInit();
             this.ResumeLayout(false);
+            this.PerformLayout();
 
         }
 
@@ -121,5 +136,6 @@
         private System.Windows.Forms.Button Sword;
         private System.Windows.Forms.PictureBox sunrise;
         private System.Windows.Forms.Label label2;
+        private System.Windows.Forms.Label next;
     }
 }

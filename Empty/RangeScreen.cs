@@ -23,24 +23,23 @@ namespace Empty
 
             //bow = 1, crossbow = 2
             Globals.weapon = 1;
-
-            PortalScreen portalScreen = new PortalScreen();
-
-            portalScreen.Show();
-
-            this.Hide();
         }
 
         private void Crossbow_Click(object sender, EventArgs e)
         {
             text.Text = ("Slow.\nUntrustworthy.");
+            
             Globals.weapon = 2;
+        }
 
+        private void next_Click(object sender, EventArgs e)
+        {
             PortalScreen portalScreen = new PortalScreen();
 
             portalScreen.Show();
 
             this.Hide();
+
         }
     }
 }

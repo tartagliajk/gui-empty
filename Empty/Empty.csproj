@@ -58,6 +58,18 @@
     <Compile Include="ForestScreen.Designer.cs">
       <DependentUpon>ForestScreen.cs</DependentUpon>
     </Compile>
+    <Compile Include="GameOver.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GameOver.Designer.cs">
+      <DependentUpon>GameOver.cs</DependentUpon>
+    </Compile>
+    <Compile Include="NetherScreen.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="NetherScreen.Designer.cs">
+      <DependentUpon>NetherScreen.cs</DependentUpon>
+    </Compile>
     <Compile Include="PortalScreen.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -102,6 +114,12 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="StrongholdScreen.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="StrongholdScreen.Designer.cs">
+      <DependentUpon>StrongholdScreen.cs</DependentUpon>
+    </Compile>
     <Compile Include="TreesScreen.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -120,8 +138,17 @@
     <EmbeddedResource Include="ForestScreen.resx">
       <DependentUpon>ForestScreen.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="GameOver.resx">
+      <DependentUpon>GameOver.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="IntroScreen.resx">
       <DependentUpon>IntroScreen.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="NetherScreen.resx">
+      <DependentUpon>NetherScreen.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PortalScreen.resx">
+      <DependentUpon>PortalScreen.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>

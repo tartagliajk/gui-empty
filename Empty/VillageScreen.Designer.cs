@@ -90,14 +90,14 @@
             this.next.Font = new System.Drawing.Font("Determination Mono Web", 26.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.next.Location = new System.Drawing.Point(1086, 589);
             this.next.Name = "next";
-            this.next.Size = new System.Drawing.Size(83, 35);
+            this.next.Size = new System.Drawing.Size(108, 45);
             this.next.TabIndex = 29;
             this.next.Text = "next";
             this.next.Click += new System.EventHandler(this.next_Click);
             // 
             // VillageScreen
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(5F, 10F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 14F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.Black;
             this.ClientSize = new System.Drawing.Size(1166, 623);
@@ -109,6 +109,7 @@
             this.Controls.Add(this.label4);
             this.Font = new System.Drawing.Font("Determination Mono Web", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.ForeColor = System.Drawing.Color.White;
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.Fixed3D;
             this.Name = "VillageScreen";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "village";

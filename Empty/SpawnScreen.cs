@@ -29,8 +29,7 @@ namespace Empty
 
             treesScreen.Show();
 
-            this.Hide();
+            this.Close();
         }
-
     }
 }

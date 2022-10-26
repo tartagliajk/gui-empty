@@ -110,7 +110,6 @@
             this.Name = "IntroScreen";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "IntroScreen";
-            this.Load += new System.EventHandler(this.IntroScreen_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 

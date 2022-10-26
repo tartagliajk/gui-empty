@@ -17,3 +17,7 @@ C:\Users\nina.vazae\gui empty\Empty\obj\Debug\Empty.CreditsScreen.resources
 C:\Users\nina.vazae\gui empty\Empty\obj\Debug\Empty.ForestScreen.resources
 C:\Users\nina.vazae\gui empty\Empty\obj\Debug\Empty.RangeSmithScreen.resources
 C:\Users\nina.vazae\gui empty\Empty\obj\Debug\Empty.RangeScreen.resources
+C:\Users\nina.vazae\gui empty\Empty\obj\Debug\Empty.SmithScreen.resources
+C:\Users\nina.vazae\gui empty\Empty\obj\Debug\Empty.PortalScreen.resources
+C:\Users\nina.vazae\gui empty\Empty\obj\Debug\Empty.NetherScreen.resources
+C:\Users\nina.vazae\gui empty\Empty\obj\Debug\Empty.GameOver.resources

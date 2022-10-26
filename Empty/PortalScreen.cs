@@ -16,5 +16,19 @@ namespace Empty
         {
             InitializeComponent();
         }
+
+        private void arrow_Click(object sender, EventArgs e)
+        {
+            text.Text = ("Risk? Yes.\nThe player runs towards the portal.\nOver the guards it goes.\nInto the portal it goes.");
+        }
+
+        private void next_Click(object sender, EventArgs e)
+        {
+            NetherScreen netherScreen = new NetherScreen();
+
+            netherScreen.Show();
+
+            this.Hide();
+        }
     }
 }

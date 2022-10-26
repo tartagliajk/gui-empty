@@ -17,11 +17,6 @@ namespace Empty
             InitializeComponent();
         }
 
-        private void IntroScreen_Load(object sender, EventArgs e)
-        {
-
-        }
-
         private void arrow_Click(object sender, EventArgs e)
         {
             text.Text = "Everything is simply being built up." +
